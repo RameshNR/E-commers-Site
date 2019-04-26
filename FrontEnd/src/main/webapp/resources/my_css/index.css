@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+
+
+/*			     BACKGROUND COLOR 
+===================================================================*/
+body { 
+/* 
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) ;
+*/
+background-color: #d6d3d33b;
+}
+
+/*			   NavBar  Page Indicator 
+===================================================================*/
+a#home_act {
+color: black;
+}
+
+  
+
+/*				SLIDE SHOW EFFECT - CAROUSEL  
+===================================================================*/
+.carousel-item 
+{
+height: 91vh;     /* ------    Slide Height Control      ------- */
+min-height: 350px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+	
+
+
+
+/*                  CAROUSEL  Page CONTROLLER ICON STYLE
+=================================================================*/ 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: white;
+  background-size: 40%, 40%;
+  border-radius: 30%;
+  border: 1px solid white;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-weight: bold;
+  font-size: 23.5px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-weight: bold;
+  font-size: 23.5px;
+  color: white;
+}
+

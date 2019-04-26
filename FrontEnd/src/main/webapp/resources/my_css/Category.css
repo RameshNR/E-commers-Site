@@ -1,0 +1,240 @@
+@charset "ISO-8859-1";
+
+
+
+/*			     BACKGROUND COLOR 
+===================================================================*/
+body { 
+/* 
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1) ;
+*/
+background-color: #d6d3d33b;
+}
+
+/*			   NavBar  Page Indicator 
+===================================================================*/
+a#category_act {
+	color: black;
+}
+
+
+/*				HIDE NAVIGATION BAR   [ Main - Desktop size Navbar]
+it Use to hide the Big Navigation when the screen size below 991px 
+===================================================================*/
+ 
+@media screen and (max-width: 991px) {
+nav.navbar   {
+    display: none;
+  }
+}   
+
+/*				HIDE NAVIGATION BAR    [ Second - Mobile size Navbar]
+it Use to hide the Big Navigation when the screen size below 991px 
+===================================================================*/
+
+@media screen and (min-width: 992px) {
+nav#navi, div#overlay, div#menu   {
+    display: none;
+  }
+}   
+  
+
+/*  ---------------  Hover Effect For Input Table   ---------------   */
+tr#inp_data2:hover {
+	height: 30px;
+    background: #a8ccd7;
+}
+
+/*  ---------------  Hover Effect For Stored Table    ---------------   */
+tr#Stored_value:hover {
+	background: #a8ccd7;
+}
+
+
+
+/*                  TABLE VALUES 
+==========================================================*/
+
+tr#inp_data {
+	height: 30px;
+    text-align: center;
+}
+
+#inp_head {
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+td#inp_inp {
+	align: center;
+	
+} 
+
+@media screen and (max-width: 900px) {
+td#inp_inp  {
+    align: center;
+	padding-left: 10px;
+   } 
+	
+}
+
+
+/* ------------   Button Border color   -------------------  */
+input#mybutton {
+	border: 1px solid #0808089c;
+}
+
+/* ------------   Button Hover Effect   -------------------  */
+#mybutton:hover {
+	background: black;
+	color: white;
+}
+
+
+
+input::placeholder {
+  color:  #a6a6a6;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+
+#data_head {
+	height: 30px;
+	font-weight: bold;
+}
+
+#data_title {
+	text-align: center;
+	font-weight: bold;
+	width: 140px;
+	height: 30px;
+}
+
+#data_title2 {
+	text-align: center;
+	font-weight: bold;
+	width: 140px;
+	height: 30px;
+}
+
+td#data {
+	text-align: center;
+	text-weight: 20%;
+}
+
+
+@media screen and (max-width: 300px) {
+table#table {
+	text-align: center;
+	width: 0px;
+	height: 40px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+td#data_title {
+	text-align: center;
+	color: red;
+	width: 80px;
+	height: 40px;
+	}
+}
+
+
+@media screen and (max-width: 300px) {
+td#data_title2  {
+    text-align: center;
+	width: 80px;
+	height: 40px;
+  }
+}
+
+
+
+@media screen and (min-width: 600px) {
+i#use_icons1 {
+	 margin-right: 10px;
+	 color: black;
+	}
+}
+@media screen and (max-width: 600px) {
+i#use_icons1  {
+    margin-left: 9px;
+	font-weight: 600;
+	color: black;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+a#icon_div  {
+    margin-left: 26px;
+	font-weight: 900;
+  }
+}
+@media screen and (max-width: 600px) {
+a#icon_div  {
+    margin-left: 8px;
+	font-weight: 600;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+i#use_icons2 {
+	margin-left: 28px;
+	font-weight: 900;
+	color: black;
+   }
+}
+
+
+@media screen and (max-width: 600px) {
+i#use_icons2  {
+    margin-left: 9px;
+	font-weight: 600;
+	color: black;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Above the Screen 600px */
+@media screen and (min-width: 600px) {
+img#opt_icn {
+	 height: 30px;
+   }
+}
+
+/* Above the Screen 500px */
+@media screen and (min-width: 500px) {
+img#opt_icn {
+	 
+	 height: 20px;
+   }
+}
+
+/* Above the Screen 500px */
+@media screen and (max-width: 499px) {
+img#opt_icn {
+	 
+	 height: 17px;
+   }
+}
+
+/* Below the Screen 400px */
+@media screen and (max-width: 400px) {
+img#opt_icn {
+	 width: 15px; 
+	 height: 15px;
+   }
+}
